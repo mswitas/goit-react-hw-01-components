@@ -1,0 +1,34 @@
+.statistics {
+    margin-block: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: large;
+}
+
+.statList {
+    display: flex;
+    flex-grow: 1;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px;
+}
+
+.label {
+    color: white;
+    font-size: smaller;
+}
+
+.percentage {
+    composes: label;
+    font-size: medium;
+}
