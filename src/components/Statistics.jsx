@@ -2,7 +2,7 @@ import css from "./Statistics.module.css";
 
 export const Statistics = ({ title, stats }) => {
     const list = stats.map((item, index) => {
-        if (index > 3) { return }
+        //if (index > 3) { return }
         const colorHex = `#${Math.floor(Math.random() * 16777215).toString(16)}`; 
         return (
             <li className={css.item} key={item.id} style={{ backgroundColor: colorHex}} >
